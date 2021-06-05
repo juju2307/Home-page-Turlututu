@@ -7,24 +7,23 @@ body {
 header {
     display: flex;
     flex-flow: nowrap;
-    height: 6%;
+    height: 25%;
     background-color: #333333;
-    align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 .logo1 {
     width: 20%;
 
-    
 }
 .logo2 {
     width: 4%;
-       
+     
 }
 .Menu1 {
     display: flex;
     width: 50%;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
 }
 .Menu1 a {
     text-decoration: none;  
@@ -37,7 +36,7 @@ header {
     height: 200%;
     background-color: #1E93CC;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding-bottom: 20px;
 }
 
@@ -49,29 +48,144 @@ header {
 .Premier {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     height: 80%;
-    margin-left: 0px;
-   
+    align-items: center;
 }
 .logo {
     align-self: center;
+    height: 15px;
 }
 .title {
     align-self: center;
     color: white;
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    height: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
 }
 .button {
     align-self: center;
     color: white;
     font-size: 20px;
+    font-weight: bold;
     background-color: orange;
     border: 2px solid #fff;
-    padding: 5px;
+    padding: 20px;
+    border-radius: 10px;
 }
-.deadline {
-    display: block;
+.deadlines {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+ }
+  .second {
+      display: grid;
+      justify-content: space-around;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 70px;
+      background-color: #1E93CC;
+      color: white;
+      font-family: sans-serif;
+      font-size: medium;
+      height: auto
+  }
+ 
+  .Text1 {
+      color: ivory ;
+      width: 90%;
+  }
+  .Text2 {
+      color: ivory;
+      width: 90%;
+  }
+  .Text3 {
+      color: ivory;
+      width: 90%;
+  }
+  .Text4 {
+      color: ivory;
+      width: 90%;
+  }
+  .More {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+  }
+  .Message {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      justify-self: flex-end;
+      width: 10%;
+  }
+  .Innovatie {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: lightslategray
+  }
+  .sponsors {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: hsl(0, 0%, 90%);
+      height: 300px;
+  }
+ .fourth {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding-top: 40px;
+     padding-bottom: 60px;
+     justify-content: center;
+ }
+.ButtonAPI {
+    border: none;
+    border-radius: 10px;
+    background-color: #165882;
+    padding-left: 50px;
+    padding: 20px;
+    color: white;
+    width: 120px;
+    font-size: 20px;
+    margin-right: 10px;
     
+}
+.ButtonDocs {
+    border: none;
+    border-radius: 10px;
+    background-color: #165882;
+    padding-left: 70px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    width: 120px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.ButtonStart {
+    border: none;
+    border-radius: 10px;
+    background-color: #E99002;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    width: 150px;
+    font-size: 20px;
+}
+footer {
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+}
+.Menu2 {
+  text-decoration: none;
+  color: #fff;
 }
