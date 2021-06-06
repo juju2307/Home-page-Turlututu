@@ -54,7 +54,9 @@ header {
 }
 .logo {
     align-self: center;
-    height: 15px;
+    height: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 .title {
     align-self: center;
@@ -63,16 +65,20 @@ header {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: lighter;
+    padding-top: 0px;
 }
 .button {
     align-self: center;
-    color: white;
     font-size: 20px;
     font-weight: bold;
     background-color: orange;
     border: 2px solid #fff;
     padding: 20px;
     border-radius: 10px;
+}
+.button a {
+    text-decoration: none;
+    color: #fff;
 }
 .deadlines {
     display: flex;
@@ -119,7 +125,7 @@ header {
       grid-row-start: 2;
       grid-row-end: 3;
       justify-self: flex-end;
-      width: 10%;
+      width: 15%;
   }
   .Innovatie {
     display: flex;
@@ -141,42 +147,46 @@ header {
      align-items: center;
      padding-top: 40px;
      padding-bottom: 60px;
-     justify-content: center;
+     justify-content: center;  
+ }
+  .fourth a {
+     text-decoration: none;
+     color: #fff;
  }
 .ButtonAPI {
+    text-decoration: none;
     border: none;
     border-radius: 10px;
     background-color: #165882;
     padding-left: 50px;
     padding: 20px;
-    color: white;
-    width: 120px;
+    width: 150px;
     font-size: 20px;
     margin-right: 10px;
     
 }
 .ButtonDocs {
+    text-decoration: none;
     border: none;
     border-radius: 10px;
     background-color: #165882;
-    padding-left: 70px;
+    padding-left: 40px;
     padding-right: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: white;
-    width: 120px;
+    width: 150px;
     font-size: 20px;
     margin-right: 10px;
 }
 .ButtonStart {
+    text-decoration: none;
     border: none;
     border-radius: 10px;
     background-color: #E99002;
     padding-left: 20px;
-    padding-right: 0px;
+    padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: white;
     width: 150px;
     font-size: 20px;
 }
@@ -184,8 +194,47 @@ footer {
     background-color: #333333;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .Menu2 {
-  text-decoration: none;
-  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 5px;
+  
+
+  
+}
+.Menu2 a {
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+.Copyright {
+    color: #fff;
+    align-self: center;
+}
+.Home {
+    border-right: 1px solid white;
+    padding-right: 0px;
+    width: 50px;
+}
+.About {
+    border-right: 1px solid white;
+    padding-right: 0px;
+    width: 50px;
+}
+.Contact {
+    border-right: 1px solid white;
+    padding-right: 0px;
+    width: 60px;
+}
+.Terms {
+    border-right: 1px solid white;
+    padding-right: 0px;
+    width: 80px;
 }
